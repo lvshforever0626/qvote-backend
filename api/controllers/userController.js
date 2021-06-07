@@ -5,7 +5,6 @@ var passport = require('passport');
 const Constants = require('../util/constants');
 const Logger = require('../../logger/logger');
 
-
 const multer = require("multer");
 const AWS = require('aws-sdk');
 const storage = multer.memoryStorage();
